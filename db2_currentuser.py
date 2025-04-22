@@ -7,8 +7,8 @@ jdbc_driver_path = "./jcc-11.5.9.0.jar"
 
 host = "10.1.1.251"  
 port = "50000" 
-db_name = "{db_name}"
-schema_name = "{scheuma_name}"
+db_name = "db_name"
+schema_name = "scheuma_name"
 url = f"jdbc:db2://{host}:{port}/{db_name}:sslConnection=true;loginTimeout=30;socketTimeout=60;"
 
 username = "jimmy"
